@@ -1,0 +1,30 @@
+.game {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: lightgray;
+}
+.gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225 px;
+    
+}
+.cell {
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: white;
+}
+.game__placeholderImage {
+    width: 100%;
+}
